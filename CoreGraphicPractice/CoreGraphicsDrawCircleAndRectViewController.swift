@@ -29,10 +29,6 @@ class CoreGraphicsDrawCircleAndRectViewController: UIViewController {
         
         print(UIScreen.main.bounds.size)
     }
-    
-    func animate() {
-    }
-    
 }
 
 class RectAndCircleView: UIView {

@@ -15,6 +15,8 @@
 		0228B407277B1D8300BF8ECF /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228B406277B1D8300BF8ECF /* MoveViewController.swift */; };
 		0228B40A277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228B409277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift */; };
 		0228B40C277C02DF00BF8ECF /* CircleWithImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228B40B277C02DF00BF8ECF /* CircleWithImageViewViewController.swift */; };
+		0228B412277C232500BF8ECF /* RotateScaleShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228B411277C232500BF8ECF /* RotateScaleShakeViewController.swift */; };
+		0228B414277C2F3D00BF8ECF /* FollowCirclePathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228B413277C2F3D00BF8ECF /* FollowCirclePathViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0228B406277B1D8300BF8ECF /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
 		0228B409277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsDrawCircleAndRectViewController.swift; sourceTree = "<group>"; };
 		0228B40B277C02DF00BF8ECF /* CircleWithImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWithImageViewViewController.swift; sourceTree = "<group>"; };
+		0228B411277C232500BF8ECF /* RotateScaleShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateScaleShakeViewController.swift; sourceTree = "<group>"; };
+		0228B413277C2F3D00BF8ECF /* FollowCirclePathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowCirclePathViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,10 @@
 		0228B3F1277AFCFA00BF8ECF /* CoreGraphicPractice */ = {
 			isa = PBXGroup;
 			children = (
+				0228B410277C06D200BF8ECF /* CoreAnimations */,
+				0228B40D277C069800BF8ECF /* CoreGraphics */,
 				0228B408277BF93600BF8ECF /* Files */,
 				0228B3F6277AFCFA00BF8ECF /* ViewController.swift */,
-				0228B406277B1D8300BF8ECF /* MoveViewController.swift */,
-				0228B409277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift */,
-				0228B40B277C02DF00BF8ECF /* CircleWithImageViewViewController.swift */,
 			);
 			path = CoreGraphicPractice;
 			sourceTree = "<group>";
@@ -79,6 +82,25 @@
 				0228B400277AFCFD00BF8ECF /* Info.plist */,
 			);
 			name = Files;
+			sourceTree = "<group>";
+		};
+		0228B40D277C069800BF8ECF /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				0228B409277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift */,
+				0228B40B277C02DF00BF8ECF /* CircleWithImageViewViewController.swift */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		0228B410277C06D200BF8ECF /* CoreAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				0228B406277B1D8300BF8ECF /* MoveViewController.swift */,
+				0228B411277C232500BF8ECF /* RotateScaleShakeViewController.swift */,
+				0228B413277C2F3D00BF8ECF /* FollowCirclePathViewController.swift */,
+			);
+			name = CoreAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,11 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0228B414277C2F3D00BF8ECF /* FollowCirclePathViewController.swift in Sources */,
 				0228B3F7277AFCFA00BF8ECF /* ViewController.swift in Sources */,
 				0228B40C277C02DF00BF8ECF /* CircleWithImageViewViewController.swift in Sources */,
 				0228B407277B1D8300BF8ECF /* MoveViewController.swift in Sources */,
 				0228B3F3277AFCFA00BF8ECF /* AppDelegate.swift in Sources */,
 				0228B40A277C00E800BF8ECF /* CoreGraphicsDrawCircleAndRectViewController.swift in Sources */,
+				0228B412277C232500BF8ECF /* RotateScaleShakeViewController.swift in Sources */,
 				0228B3F5277AFCFA00BF8ECF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
