@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  CircleWithImageViewViewController.swift
 //  CoreGraphicPractice
 //
-//  Created by Yong Jun Cha on 2021/12/28.
+//  Created by Yong Jun Cha on 2021/12/29.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CircleWithImageViewViewController: UIViewController {
     
     let imageView = UIImageView()
 
@@ -46,5 +46,3 @@ class ViewController: UIViewController {
     }
     
 }
-
-
